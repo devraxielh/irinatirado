@@ -1,0 +1,76 @@
+{
+  "controls": [
+    {
+      "name": "nombre",
+      "label": "Primer Nombre",
+      "value": "",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 10
+      }
+    },
+    {
+      "name": "apellido",
+      "label": "Apellidos",
+      "value": "",
+      "type": "text",
+      "validators": {}
+    },
+    {
+      "name": "comentarios",
+      "label": "Comentarios",
+      "value": "",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "aceptar",
+      "label": "Aceptar terminos?",
+      "value": "false",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "lightDark",
+      "label": "Toggle dark mode",
+      "value": "false",
+      "type": "toggle",
+      "validators": {}
+    },
+    {
+      "name": "size",
+      "label": "Size",
+      "value": "",
+      "type": "range",
+      "options": {
+        "min": "0",
+        "max": "100",
+        "step": "1",
+        "icon": "sunny"
+      },
+      "validators": {}
+    },
+    {
+      "name": "select",
+      "label": "Select",
+      "value": "",
+      "type": "select",
+      "options": [
+        {
+          "value": "1",
+          "label": "Option 1"
+        },
+        {
+          "value": "2",
+          "label": "Option 2"
+        },
+        {
+          "value": "3",
+          "label": "Option 3"
+        }
+      ],
+      "validators": {}
+    }
+  ]
+}
