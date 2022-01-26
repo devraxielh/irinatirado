@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BlogComponent } from './blog/blog.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SliderComponent } from './slider/slider.component';
+import { ContentHomeComponent } from './content-home/content-home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SliderComponent } from './slider/slider.component';
     HeaderComponent,
     FooterComponent,
     BlogComponent,
-    SliderComponent
+    SliderComponent,
+    ContentHomeComponent
   ],
   imports: [
     BrowserModule,
